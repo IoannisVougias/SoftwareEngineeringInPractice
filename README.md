@@ -5,32 +5,33 @@ and produces a histogram of those grades.
 
 ## Getting Started
 
-T
+
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-[Eclipse](https://www.eclipse.org/)
-[Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-[Maven](https://maven.apache.org/)
+*[Eclipse](https://www.eclipse.org/)
+
+*[Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+*[Maven](https://maven.apache.org/)
 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Install options:self-contained jar file.
-
+Install options: self-contained jar file.
 
 
-If you would like to run the Spellchecker.jar , change the directory to Spellchecker\target, then execute:
+
+If you would like to run the gradeshistogram.jar , change the directory to gradeshistogram\target, then execute:
 
 java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 After installation, the output should contain:
 
-![alt text](https://imgur.com/yAu0dA0)
+![Histogram](https://imgur.com/yAu0dA0)
 
 
 ## Built With
