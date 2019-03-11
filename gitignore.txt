@@ -1,7 +1,0 @@
-seip2019\.classpath
-seip2019\.settings
-seip2019\.project
-seip2019\gradeshistogram\target
-seip2019\gradeshistogram\.settings
-seip2019\gradeshistogram\.classpath
-seip2019\gradeshistogram\.project
