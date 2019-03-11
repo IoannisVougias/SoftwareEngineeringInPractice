@@ -27,7 +27,9 @@ Install options: self-contained jar file.
 
 If you would like to run the gradeshistogram.jar , change the directory to gradeshistogram\target, then execute:
 
-java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar grades.txt
+
+grades.txt is the file that contains the grades.
 
 After installation, the output should contain:
 
@@ -49,4 +51,4 @@ See also the list of [contributors](https://github.com/IoannisVougias/GradesPres
 
 * Hat tip to [Antonis Gkortzis](https://github.com/AntonisGkortzis)
 * for providing me with advised and useful code
-* 
+
