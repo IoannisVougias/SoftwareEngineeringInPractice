@@ -1,2 +1,2 @@
-# GradesPresentation
-Java Application that presents a histogram of grades
+# Software Engineering in Practice course repository
+Repository that contains projects developed in course Software Engineering in Practivce 
