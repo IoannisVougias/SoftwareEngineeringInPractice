@@ -8,8 +8,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>gradeshistogram</artifactId>
-	<name>child module 1 seip2019</name>
-	<description>first module of 1st assignment</description>
+	<name>gradeshistogram module pom</name>
+	<description>This is the module pom for gradeshistogram project</description>
 
 
 
@@ -20,7 +20,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>gradeshistogram.HistogramGenerator</mainClass> 
+							<mainClass>gradeshistogram.HistogramGenerator</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
