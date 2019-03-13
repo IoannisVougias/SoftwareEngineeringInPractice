@@ -11,6 +11,12 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
+/***
+ * 
+ * @author IoannisVougias The purpose of this class is to present a histogram of
+ *         grades based on a command line input txt file that includes grades
+ * 
+ */
 public class HistogramGenerator {
 
 	/***
