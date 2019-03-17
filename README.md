@@ -1,6 +1,6 @@
 # GradesPresentation
 
-Student project for the course of Software Engineering in Practice.This projects reads a txt file that includes grades from CMD 
+Student project for the course of Software Engineering in Practice.This projects reads a txt file that includes grades from CMD
 and produces a histogram of those grades.
 
 ## Getting Started
@@ -51,4 +51,3 @@ See also the list of [contributors](https://github.com/IoannisVougias/GradesPres
 
 * Hat tip to [Antonis Gkortzis](https://github.com/AntonisGkortzis)
 * for providing me with advised and useful code
-
