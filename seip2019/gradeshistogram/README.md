@@ -1,4 +1,4 @@
-# GradesPresentation
+# Gradeshistogram
 
 Student project for the course of Software Engineering in Practice.This projects reads a txt file that includes grades from CMD
 and produces a histogram of those grades.
