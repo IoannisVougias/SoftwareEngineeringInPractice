@@ -21,22 +21,22 @@ public class ArrayOperationsTest {
 	String invalidContent = "src/test/resources/invalidContent.txt";
 
 	@Test
-  public void test_reverseArray_NormalBehaviour_Mocking() {
-    //Mock integerOperations and fileIo depedency
-    IntegerOperations io = mock(IntegerOperations.class);
-    FileIO fi = mock(FileIO.class);
-    //Use the parameterized Constructor
-    ArrayOperrations ao = new ArrayOperrations(fi, io);
-    //Case of opening the validNumbers txt file
-    when(fi.readFile(validNumbers)).thenReturn(new int[] {1,2,3,4});
-    //Case of testing reverseSign on all the numbers
-    when(io.reverseSign(1)).thenReturn(-1);
-    when(io.reverseSign(2)).thenReturn(-2);
-    when(io.reverseSign(3)).thenReturn(-3);
-    when(io.reverseSign(4)).thenReturn(-4);
-    //Case of testing reverseArray on the array with these numbers
-    ao.reverseArray(validNumbers);
-  }
+	public void test_reverseArray_NormalBehaviour_Mocking() {
+		// Mock integerOperations and fileIo depedency
+		IntegerOperations io = mock(IntegerOperations.class);
+		FileIO fi = mock(FileIO.class);
+		// Use the parameterized Constructor
+		ArrayOperrations ao = new ArrayOperrations(fi, io);
+		// Case of opening the validNumbers txt file
+		when(fi.readFile(validNumbers)).thenReturn(new int[] { 1, 2, 3, 4 });
+		// Case of testing reverseSign on all the numbers
+		when(io.reverseSign(1)).thenReturn(-1);
+		when(io.reverseSign(2)).thenReturn(-2);
+		when(io.reverseSign(3)).thenReturn(-3);
+		when(io.reverseSign(4)).thenReturn(-4);
+		// Case of testing reverseArray on the array with these numbers
+		ao.reverseArray(validNumbers);
+	}
 
 	@Test(expected = IllegalArgumentException.class)
 	public void test_reverseArrayException() {

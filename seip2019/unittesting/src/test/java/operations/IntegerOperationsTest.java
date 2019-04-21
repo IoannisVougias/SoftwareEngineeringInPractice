@@ -76,7 +76,6 @@ public class IntegerOperationsTest {
 		Assert.assertEquals(23, mm.add(0, 23));
 	}
 
-
 	/**
 	 * Test cases for powerOfTwo method
 	 */

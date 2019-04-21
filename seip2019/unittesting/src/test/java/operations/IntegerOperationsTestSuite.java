@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 /***
- * A class that performs test suite that executes all test classes of of the
+ * A class that performs test suite that executes all test classes of the
  * IntegerOperations functional class
  *
  * @author IoannisVougias
