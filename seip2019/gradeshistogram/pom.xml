@@ -12,7 +12,6 @@
 	<description>This is the module pom for gradeshistogram project</description>
 
 
-
 	<build>
 		<plugins>
 			<plugin>
@@ -39,6 +38,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	
 
 	<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
 	<dependencies>
