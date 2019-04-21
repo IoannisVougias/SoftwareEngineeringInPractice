@@ -23,10 +23,12 @@ public class FileIO {
 	 * @throws NumberFormatException when the input number is in an invalid form
 	 */
 	public int[] readFile(String filepath)  {
-		List<Integer> linesList = new ArrayList<>();
+		List<Integer> linesList = new ArrayList();
 		
 		
-		try (BufferedReader reader = new BufferedReader(new FileReader(filepath))){
+		try {
+			
+			BufferedReader reader = new BufferedReader(new FileReader(filepath));
 			String line;
 			while((line = reader.readLine()) != null) {
 				linesList.add(Integer.parseInt(line));

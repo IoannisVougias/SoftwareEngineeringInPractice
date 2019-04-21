@@ -8,7 +8,7 @@ import org.junit.Rule;
 /***
  * A class that performs tests on the IntegerOperations class. It contains test
  * cases for the functional methods of reverseSign, add, powerOfTwo
- * 
+ *
  * @author IoannisVougias
  */
 public class IntegerOperationsTest {
@@ -58,17 +58,12 @@ public class IntegerOperationsTest {
 
 	@Test(expected = IllegalArgumentException.class)
 	public void test_add_check_max_value() {
-		mm.add( 2 147 483 900, Integer.MAX_VALUE - 5);
+		mm.add(2147483647, Integer.MAX_VALUE - 5);
 	}
 
 	@Test
 	public void test_add_positive_numbers() {
 		Assert.assertEquals(10, mm.add(5, 5));
-	}
-
-	@Test
-	public void test_add_negative_numbers() {
-		Assert.assertEquals(-10, mm.add(-5, -5));
 	}
 
 	@Test
@@ -81,10 +76,6 @@ public class IntegerOperationsTest {
 		Assert.assertEquals(23, mm.add(0, 23));
 	}
 
-	@Test
-	public void test_add_zero_negative() {
-		Assert.assertEquals(-23, mm.add(0, -23));
-	}
 
 	/**
 	 * Test cases for powerOfTwo method

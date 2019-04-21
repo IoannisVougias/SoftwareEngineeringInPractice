@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>unittesting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Unit Testing SEiP code base</name>
+	<name>unittesting module pom</name>
 	<description>This is the module pom for unittesting project</description>
 
 	<build>
@@ -29,15 +29,23 @@
 		</plugins>
 	</build>
 
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
 
-	<!-- https://mvnrepository.com/artifact/junit/junit -->
-	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<version>4.8.1</version>
-		<scope>test</scope>
-	</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.25.1</version>
+			<scope>test</scope>
+		</dependency>
 
-	<!-- Add here or in the parent POM the required dependencies -->
+	</dependencies>
 
 </project>
