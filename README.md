@@ -1,6 +1,6 @@
 # SoftwareEngineeringInPractice
 ![Build Status](https://travis-ci.com/IoannisVougias/SoftwareEngineeringInPractice.svg?token=pt7u2XM6bHvCMzJjxHeL&branch=master)
-[![codecov](https://codecov.io/gh/IoannisVougias/SoftwareEngineeringInPractice/branch/development/graph/badge.svg?token=gNskKu4fJ9)](https://codecov.io/gh/IoannisVougias/SoftwareEngineeringInPractice)
+[![codecov](https://codecov.io/gh/IoannisVougias/SoftwareEngineeringInPractice/branch/master/graph/badge.svg?token=gNskKu4fJ9)](https://codecov.io/gh/IoannisVougias/SoftwareEngineeringInPractice)
 
 
 Repository that contains projects assigned in course SoftwareEngineeringInPractice. Practicing simple software engineering methods and tools like junit, travis, codeoveralls, patterns, maven, eclipse 
