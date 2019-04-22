@@ -45,7 +45,6 @@ public class IntegerOperations_Test_PowerOfTwo_Parameterized {
 		return Arrays.asList(data);
 	}
 
-
 	/***
 	 * Test cases for power of zero and power of one
 	 */
