@@ -1,11 +1,18 @@
-language: java # Define the language
+language: java 
 
-jdk: # Define the execution environments
+jdk: 
 - openjdk8
 - oraclejdk8
 
+env:
+  global:
+    - CODECOV_TOKEN="7e795989-9149-4961-9ad8-f772d4c372c0"
 script: # Build the project
 - mvn clean package
 
 after_success: # Notify users about the result
 - echo “Process terminated successfully”
+- bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email: false
