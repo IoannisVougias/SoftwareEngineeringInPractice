@@ -2,7 +2,7 @@
 .settings/
 .project
 .metadata
-seip2019/gradeshistogram/target
-seip2019/gradeshistogram/.classpath
-seip2019/gradeshistogram/.project
-seip2019/.settings/
+gradeshistogram/target
+gradeshistogram/.classpath
+gradeshistogram/.project
+.settings/
