@@ -11,5 +11,7 @@
   All the other modules that will be created will have this pom as parent</description>
 	<modules>
 		<module>gradeshistogram</module>
+		<module>sourcecodemetrics</module>
+		<module>unittesting</module>
 	</modules>
 </project>
