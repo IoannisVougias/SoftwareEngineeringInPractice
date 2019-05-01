@@ -17,7 +17,7 @@ import org.junit.Assert;
  * @author IoannisVougias
  */
 @RunWith(Parameterized.class)
-public class IntegerOperations_Test_PowerOfTwo_Parameterized {
+public class IntegerOperations_PowerOfTwo_ParameterizedTest {
 
 	/***
 	 * Parameters to check powerOfTwo for power of 0 and power of 1
@@ -27,10 +27,6 @@ public class IntegerOperations_Test_PowerOfTwo_Parameterized {
 	public int power_of_zero;
 	@Parameter(value = 1)
 	public int result_of_zero;
-	@Parameter(value = 1)
-	public int power_of_one;
-	@Parameter(value = 2)
-	public int result_of_one;
 
 	IntegerOperations io = new IntegerOperations();
 
@@ -40,7 +36,7 @@ public class IntegerOperations_Test_PowerOfTwo_Parameterized {
 
 	@Parameters
 	public static Collection<Object[]> data() {
-		Object[][] data = new Object[][] { { 2, 4 }, { 3, 8 }, { 4, 16 }, { 5, 32 } };
+		Object[][] data = new Object[][] { { 0, 1 }, { 2, 4 }, { 3, 8 }, { 4, 16 }, { 5, 32 } };
 
 		return Arrays.asList(data);
 	}
@@ -51,7 +47,6 @@ public class IntegerOperations_Test_PowerOfTwo_Parameterized {
 	@Test
 	public void test_powerOfTwo() {
 		Assert.assertEquals(result_of_zero, io.powerOfTwo(power_of_zero));
-		Assert.assertEquals(result_of_one, io.powerOfTwo(power_of_one));
 	}
 
 }

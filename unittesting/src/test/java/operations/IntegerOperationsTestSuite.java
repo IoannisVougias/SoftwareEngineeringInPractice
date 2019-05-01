@@ -11,7 +11,7 @@ import org.junit.runners.Suite;
  */
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ IntegerOperationsTest.class, IntegerOperations_Test_PowerOfTwo_Parameterized.class })
+@Suite.SuiteClasses({ IntegerOperationsTest.class, IntegerOperations_PowerOfTwo_ParameterizedTest.class })
 public class IntegerOperationsTestSuite {
 
 	/*
