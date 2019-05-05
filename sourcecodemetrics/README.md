@@ -25,7 +25,7 @@ What things you need to install the software and how to install them
 
 If you want to build this project change your directory to the folder you saved the files and run in cmd "mvn package"
 
-##Run
+## Run
 Open cmd, change directory to target and follow this command
 
 java -jar [filepath of the jar] [filepath of the java class that you want to calculate the metrics] [regex or string]
