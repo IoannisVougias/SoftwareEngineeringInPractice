@@ -22,7 +22,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>TestSourceCodeMetrics</mainClass>
+							<mainClass>org.sourcecodemetrics.TestSourceCodeMetrics</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

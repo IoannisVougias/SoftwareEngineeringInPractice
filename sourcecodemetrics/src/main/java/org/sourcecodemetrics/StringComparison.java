@@ -2,17 +2,29 @@ package org.sourcecodemetrics;
 
 import java.util.ArrayList;
 
-public class StringComparison implements SourceCodeMetricsGenericAnalyzer {
+/***
+ * 
+ * @author IoannisVougias The purpose of this class is to calculates lines of
+ *         code, number of methods and number of classes through string
+ *         comparison method
+ * 
+ */
+
+public class StringComparison extends SourceCodeMetricsGenericAnalyzer {
+
+	/**
+	 * This method calculates the lines of code, number of methods and number of
+	 * classes in the given file.
+	 * @param file the list with string lines of the file
+	 * @return metrics a list with the results
+	 */
 
 	public ArrayList<String> calculateMetrics(ArrayList<String> file) {
 		ArrayList<String> metrics = new ArrayList<String>();
-		int loc = 0;
-		int numofclasses = 0;
 		String substring = "class";
-		int numofmethods = 0;
 		for (int i = 0; i < file.size(); i++) {
 
-			if (file.get(i).contains(substring)) {
+			if (file.get(i).trim().contains(substring)) {
 				numofclasses++;
 
 			}
