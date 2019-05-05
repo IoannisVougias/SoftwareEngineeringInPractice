@@ -7,8 +7,8 @@ Repository that contains projects assigned in course SoftwareEngineeringInPracti
 
 ## Projects
 
-*[gradeshistogram](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/development/seip2019/gradeshistogram/README.md)    (Java application that reads a txt file with grades and demonstrated a histogram of the grades)
+*[gradeshistogram](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/master/seip2019/gradeshistogram/README.md)    (Java application that reads a txt file with grades and demonstrated a histogram of the grades)
 
-*[sourcecodemetrics](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/development/seip2019/sourcecodemetrics/README.md)    (Java application that reads a java file and calculates metrics (lines of code, number of methods, number of classes) )
+*[sourcecodemetrics](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/development/master/sourcecodemetrics/README.md)    (Java application that reads a java file and calculates metrics (lines of code, number of methods, number of classes) )
 
-*[unittesting](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/development/seip2019/unittesting/README.md)    (Java application that included tests on java files that perform simple math calculations, and file reading)
+*[unittesting](https://github.com/IoannisVougias/SoftwareEngineeringInPractice/blob/development/master/unittesting/README.md)    (Java application that included tests on java files that perform simple math calculations, and file reading)
