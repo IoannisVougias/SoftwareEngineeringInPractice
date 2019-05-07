@@ -4,6 +4,10 @@ Student project for the course of Software Engineering in Practice.This project 
 number of methods, number of classes. The first way of calculating is through string comparison (string) and the second is with regular expressions(regex).
 It implements Utility classes, facade class, strategy and factory patterns.
 
+## UML Diagram
+
+[UML](https://imgur.com/a/Cnh8FHO)
+
 ## Getting Started
 
 Clone and fork the repository to download the project in a local reporistory.
