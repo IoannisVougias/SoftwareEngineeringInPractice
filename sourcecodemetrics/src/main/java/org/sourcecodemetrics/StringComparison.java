@@ -15,6 +15,7 @@ public class StringComparison extends SourceCodeMetricsGenericAnalyzer {
 	/**
 	 * This method calculates the lines of code, number of methods and number of
 	 * classes in the given file.
+	 * 
 	 * @param file the list with string lines of the file
 	 * @return metrics a list with the results
 	 */
@@ -24,17 +25,18 @@ public class StringComparison extends SourceCodeMetricsGenericAnalyzer {
 		String substring = "class";
 		for (int i = 0; i < file.size(); i++) {
 
-			if (file.get(i).trim().contains(substring)) {
-				numofclasses++;
-
-			}
-
 			if (!file.get(i).equals("")) {
 				if (!file.get(i).contains("/*")) {
 					if (!file.get(i).contains("*/")) {
-						if (!file.get(i).contains("*"))
+						if (!file.get(i).contains("*")) {
 
 							loc++;
+							if (file.get(i).trim().contains(substring)) {
+								numofclasses++;
+
+							}
+						}
+
 					}
 				}
 
@@ -60,8 +62,8 @@ public class StringComparison extends SourceCodeMetricsGenericAnalyzer {
 		}
 
 		metrics.add(String.valueOf(loc));
-		metrics.add(String.valueOf(numofclasses));
 		metrics.add(String.valueOf(numofmethods));
+		metrics.add(String.valueOf(numofclasses));
 		return metrics;
 	}
 

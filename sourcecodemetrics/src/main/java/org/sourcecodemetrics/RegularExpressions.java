@@ -31,7 +31,7 @@ public class RegularExpressions extends SourceCodeMetricsGenericAnalyzer {
 		 */
 
 		for (int i = 0; i < file.size(); i++) {
-			Pattern lines = Pattern.compile("^(?!\\s*//)");
+			Pattern lines = Pattern.compile("^(\\\\*|^/|^\\\\s(?!($))^(?!(\\\\*))^(?!(/))+)");
 			Matcher matcher = lines.matcher(file.get(i));
 			/* count lines of code */
 			while (matcher.find())
@@ -43,17 +43,17 @@ public class RegularExpressions extends SourceCodeMetricsGenericAnalyzer {
 			Matcher matcher1 = methods.matcher(file.get(i));
 			while (matcher1.find())
 				numofmethods++;
-			
+
 			Pattern classes = Pattern.compile("\\bclass\\b");
 			Matcher matcher2 = classes.matcher(file.get(i));
 			while (matcher2.find())
 				numofclasses++;
 
-			metrics.add(String.valueOf(loc));
-			metrics.add(String.valueOf(numofmethods));
-			metrics.add(String.valueOf(numofclasses));
-
 		}
+		metrics.add(String.valueOf(loc));
+		metrics.add(String.valueOf(numofmethods));
+		metrics.add(String.valueOf(numofclasses));
+
 		return metrics;
 	}
 }

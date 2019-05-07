@@ -14,7 +14,6 @@ import java.util.Scanner;
  * 
  */
 public final class SourceCodeMetricsUtility {
-	private static final String NEW_LINE_SEPARATOR = "\n";
 
 	/**
 	 * This method reads a file from a filepath
@@ -48,12 +47,8 @@ public final class SourceCodeMetricsUtility {
 		try {
 			fileWriter = new FileWriter(filename);
 
-			// Add a new line separator after the header
-			fileWriter.append(NEW_LINE_SEPARATOR);
-
-			// Write a new student object list to the CSV file
 			for (int i = 0; i < content.size(); i++) {
-				fileWriter.append(content.get(i));
+				fileWriter.write("metric " + (i + 1) + " - " + content.get(i) + "  ");
 			}
 
 			System.out.println("CSV file was created successfully !!!");
