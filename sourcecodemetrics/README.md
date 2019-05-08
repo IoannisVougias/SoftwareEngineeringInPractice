@@ -6,7 +6,7 @@ It implements Utility classes, facade class, strategy and factory patterns.
 
 ## UML Diagram
 
-[UML](https://imgur.com/a/Cnh8FHO)
+[UML](https://imgur.com/a/bZWLUl4)
 
 ## Getting Started
 
