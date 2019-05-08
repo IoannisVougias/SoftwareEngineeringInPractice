@@ -48,7 +48,7 @@ public final class SourceCodeMetricsUtility {
 			fileWriter = new FileWriter(filename);
 
 			for (int i = 0; i < content.size(); i++) {
-				fileWriter.write("metric " + (i + 1) + " - " + content.get(i) + "  ");
+				fileWriter.write(content.get(i) + ",");
 			}
 
 			System.out.println("CSV file was created successfully !!!");
